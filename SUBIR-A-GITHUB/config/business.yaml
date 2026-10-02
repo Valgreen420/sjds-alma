@@ -1,0 +1,26 @@
+# config/business.yaml — Datos del negocio
+# Generado por AgentKit
+
+negocio:
+  nombre: San Juan Delivery (SJDS Connect)
+  descripcion: >
+    Plataforma de pedidos de San Juan del Sur, Nicaragua: comida, mandados,
+    experiencias y surf, y hospedaje. Desarrollada y operada por Palma Web Studio.
+  whatsapp_plataforma: "+1 720 670 5745"
+  contacto_web: /contacto
+
+agente:
+  nombre: Alma
+  tono: amigable y casual
+  idiomas: español e inglés (responde en el idioma de quien escribe)
+  caso_de_uso: >
+    Responder preguntas frecuentes sobre la plataforma y tomar datos de quien quiere
+    vender o ser motorizado, para que el equipo le de seguimiento.
+
+horario:
+  # Sin horario fijo: Alma nunca promete horas ni dias.
+  promesa: "Te escribimos en cuanto podamos."
+
+mensajes:
+  fallback: "Disculpa, no te entendi bien. ¿Me lo repites con otras palabras?"
+  error: "Uy, algo fallo de mi lado. Intenta de nuevo en un ratito, por favor."
